@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_icon_button"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_house_black_18dp"
+        android:title="MainActivityへ戻る" />
+    <item
+        android:id="@+id/add_icon_button"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_add_box_black_18dp"
+        android:title="メモを追加" />
+</menu>
