@@ -3,3 +3,6 @@
 * git diff確認用Text
 
 * git reset HEAD index.md
+
+<!-- * git commit --amend
+* ローカルリポジトリへのコミット取り消し -->
