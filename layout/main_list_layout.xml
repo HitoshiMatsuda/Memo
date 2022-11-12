@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/head_text"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:minHeight="50dp"
+                android:padding="4dp"
+                android:text="タイトル"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/add_time"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="4dp"
+                android:text="本文"
+                android:textSize="8sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/body_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:text="ここに文章が入ります。"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
